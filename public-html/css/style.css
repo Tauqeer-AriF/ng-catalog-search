@@ -1,0 +1,138 @@
+body {
+
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Gotham-Black.woff') format('woff'),
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Gotham-Bold.woff') format('woff'),
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Gotham-Medium.woff') format('woff'),
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Gotham-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+#navbar{
+    font-family: 'Montserrat-Regular';
+    background-color: #3853d8;
+}
+#header{
+    font-family: 'Montserrat-Regular';
+    background-color: #0021c4;
+    padding-bottom: 0px;
+}
+#product{
+    font-family: 'Montserrat-Regular';
+    background-color: #b49d8d;
+}
+#product-row{
+    margin-top: -80px;
+}
+#filter{
+    font-family: 'Montserrat-Regular';
+    border-right: 1px solid #ddd;
+}
+#filter-row{
+    font-family: 'Montserrat-Regular';
+    border-bottom: 1px solid #ddd;
+}
+#view-all{
+    font-family: 'Montserrat-Regular';
+    border: 1px solid #ddd;
+    background-color: #3853d8;
+}
+.pagination{
+    justify-content: center;
+}
+#bg-img{
+    font-family: 'Montserrat-Regular';
+
+    background-repeat: no-repeat;
+    background-size: 180px 300px;
+    height: 300px;
+    background-color: #b29b8b;
+}
+
+
+#hover-product{
+    font-family: 'Montserrat-Regular';
+    border: 1px solid #ccc;
+    position: relative;
+}
+#hover-product:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+#carousel3d .carousel-3d-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+#carousel3d .carousel-3d-slide.current {
+    background-color: #333;
+    color: #fff;
+}
+#carousel3d .carousel-3d-slide.current span {
+    font-size: 20px;
+    font-weight: 500;
+}
+footer{
+    font-family: 'Montserrat-Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+}
